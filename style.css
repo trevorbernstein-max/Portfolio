@@ -1,0 +1,51 @@
+nav {
+text-align: center;
+background-color: lightgrey;
+padding: 15px;
+position: sticky;
+top: 10px;
+border-radius: 15px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    font-size: larger;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+nav a:hover {
+    font-weight: 900;
+}
+
+#Contactbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    cursor: pointer; 
+    border-color: black;   
+}
+
+.Title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
