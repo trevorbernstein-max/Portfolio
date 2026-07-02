@@ -72,7 +72,7 @@ body {
   transform: translate(-50%)
 }
 
-#projectbody {
+#textbody {
     padding: 30px;
     border-radius: 15px;
     text-align: center;
@@ -81,4 +81,49 @@ body {
     left: 50%;
     transform: translate(-50%);
     background-color: yellow;
+}
+
+#codeimage {
+    width: 325px;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 17%;
+    border-radius: 15px;
+
+
+}
+
+#pictureofme {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 18%;
+    width: 215px;
+    border-radius: 15px;
+    border-color: yellow;
+}
+
+#skill1 {
+    position: absolute;
+    left: 20%;
+    color: yellow;
+    width: 100px;
+}
+
+#skill1body {
+    position: absolute;
+    left: 12%;
+    top: 20%;
+    text-align: center;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#pythonimage {
+    position: absolute;
+    left: 14%;
+    top: 40%;
 }
